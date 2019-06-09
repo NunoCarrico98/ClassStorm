@@ -1,0 +1,2567 @@
+fileFormatVersion: 2
+guid: 64dbdb7e2407d5348af09a4030df35e1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Board
+    100002: BrokenGlass
+    100004: BrokenGlass 1
+    100006: BrokenGlass 2
+    100008: Building
+    100010: Ceilling
+    100012: Chairs
+    100014: Chear_0010
+    100016: Chear_0011
+    100018: Chear_0012
+    100020: Chear_0013
+    100022: Chear_0014
+    100024: Chear_0015
+    100026: Chear_0016
+    100028: Chear_0017
+    100030: Chear_0018
+    100032: Chear_0019
+    100034: Chear_007
+    100036: Chear_008
+    100038: Chear_009
+    100040: //RootNode
+    100042: Classroom1_Wall_E_Intact2
+    100044: Desk1
+    100046: Desk2
+    100048: Desk3
+    100050: Desk4
+    100052: Desk5
+    100054: Desk6
+    100056: Desk7
+    100058: Desk8
+    100060: Door
+    100062: Frame
+    100064: Frame 1
+    100066: Frame 2
+    100068: Glass1
+    100070: Glass2
+    100072: Glass3
+    100074: Keyboard
+    100076: Keyboard005
+    100078: Keyboard005 1
+    100080: Keyboard005 2
+    100082: Keyboard005 3
+    100084: Leg1
+    100086: Leg1 1
+    100088: Leg1 2
+    100090: Leg1 3
+    100092: Leg1 4
+    100094: Leg1 5
+    100096: Leg1 6
+    100098: Leg1 7
+    100100: Leg2
+    100102: Leg2 1
+    100104: Leg2 2
+    100106: Leg2 3
+    100108: Leg2 4
+    100110: Leg2 5
+    100112: Leg2 6
+    100114: Leg2 7
+    100116: Leg3
+    100118: Leg3 1
+    100120: Leg3 2
+    100122: Leg3 3
+    100124: Leg3 4
+    100126: Leg3 5
+    100128: Leg3 6
+    100130: Leg3 7
+    100132: Leg4
+    100134: Leg4 1
+    100136: Leg4 2
+    100138: Leg4 3
+    100140: Leg4 4
+    100142: Leg4 5
+    100144: Leg4 6
+    100146: Leg4 7
+    100148: Legs
+    100150: Legs 1
+    100152: Legs 2
+    100154: Legs 3
+    100156: Legs 4
+    100158: Legs 5
+    100160: Legs 6
+    100162: Legs 7
+    100164: Legs 8
+    100166: Monitor005
+    100168: Monitor005 1
+    100170: Monitor005 2
+    100172: Monitor005 3
+    100174: PC005
+    100176: PC005 1
+    100178: PC005 2
+    100180: PC005 3
+    100182: PC1
+    100184: PC2
+    100186: PC3
+    100188: PC4
+    100190: PC_Desks
+    100192: PCs
+    100194: pCube1
+    100196: pCube2
+    100198: pCube3
+    100200: pCube4
+    100202: pCube5
+    100204: pCube6
+    100206: pPlane1
+    100208: shard100
+    100210: shard101
+    100212: shard102
+    100214: shard103
+    100216: shard104
+    100218: shard105
+    100220: shard106
+    100222: shard107
+    100224: shard108
+    100226: shard109
+    100228: shard110
+    100230: shard111
+    100232: shard112
+    100234: shard113
+    100236: shard114
+    100238: shard115
+    100240: shard116
+    100242: shard117
+    100244: shard118
+    100246: shard119
+    100248: shard120
+    100250: shard121
+    100252: shard122
+    100254: shard123
+    100256: shard124
+    100258: shard125
+    100260: shard126
+    100262: shard127
+    100264: shard128
+    100266: shard129
+    100268: shard130
+    100270: shard131
+    100272: shard132
+    100274: shard133
+    100276: shard134
+    100278: shard135
+    100280: shard136
+    100282: shard137
+    100284: shard138
+    100286: shard139
+    100288: shard140
+    100290: shard141
+    100292: shard142
+    100294: shard143
+    100296: shard144
+    100298: shard145
+    100300: shard146
+    100302: shard147
+    100304: shard148
+    100306: shard149
+    100308: shard150
+    100310: shard151
+    100312: shard152
+    100314: shard153
+    100316: shard154
+    100318: shard155
+    100320: shard156
+    100322: shard157
+    100324: shard158
+    100326: shard159
+    100328: shard160
+    100330: shard161
+    100332: shard162
+    100334: shard163
+    100336: shard164
+    100338: shard165
+    100340: shard166
+    100342: shard167
+    100344: shard168
+    100346: shard169
+    100348: shard170
+    100350: shard171
+    100352: shard172
+    100354: shard173
+    100356: shard174
+    100358: shard175
+    100360: shard176
+    100362: shard177
+    100364: shard178
+    100366: shard179
+    100368: shard180
+    100370: shard181
+    100372: shard182
+    100374: shard183
+    100376: shard184
+    100378: shard185
+    100380: shard186
+    100382: shard187
+    100384: shard188
+    100386: shard189
+    100388: shard190
+    100390: shard191
+    100392: shard81
+    100394: shard82
+    100396: shard83
+    100398: shard84
+    100400: shard85
+    100402: shard86
+    100404: shard87
+    100406: shard88
+    100408: shard89
+    100410: shard90
+    100412: shard91
+    100414: shard92
+    100416: shard93
+    100418: shard94
+    100420: shard95
+    100422: shard96
+    100424: shard97
+    100426: shard98
+    100428: shard99
+    100430: Table1
+    100432: Table2
+    100434: Table3
+    100436: Table4
+    100438: Table5
+    100440: Table6
+    100442: Table7
+    100444: Table8
+    100446: Table_001
+    100448: Table_003
+    100450: Tables1
+    100452: TableTop
+    100454: TableTop1
+    100456: TableTop1 1
+    100458: TableTop1 2
+    100460: TableTop1 3
+    100462: TableTop1 4
+    100464: TableTop1 5
+    100466: TableTop1 6
+    100468: TableTop1 7
+    100470: TeacherDesk
+    100472: TeacherTable
+    100474: Wall_W_Intact
+    100476: WallN_Intact
+    100478: Window1
+    100480: Window14
+    100482: Window16
+    100484: Window17
+    100486: Window2
+    100488: Window3
+    100490: Windows1
+    100492: leg
+    100494: leg1
+    100496: leg2
+    100498: leg3
+    100500: leg4
+    100502: leg5
+    100504: back
+    100506: back 1
+    100508: back 10
+    100510: back 11
+    100512: back 12
+    100514: back 2
+    100516: back 3
+    100518: back 4
+    100520: back 5
+    100522: back 6
+    100524: back 7
+    100526: back 8
+    100528: back 9
+    100530: Chair1
+    100532: Chair2
+    100534: Chair2 1
+    100536: Chair2 2
+    100538: Chair2 3
+    100540: Chair2 4
+    100542: Chair2 5
+    100544: Chair2 6
+    100546: Chair3
+    100548: Chair4
+    100550: Chair5
+    100552: Chair6
+    100554: Chair7
+    100556: Door 1
+    100558: leg 1
+    100560: leg 10
+    100562: leg 11
+    100564: leg 12
+    100566: leg 13
+    100568: leg 2
+    100570: leg 3
+    100572: leg 4
+    100574: leg 5
+    100576: leg 6
+    100578: leg 7
+    100580: leg 8
+    100582: leg 9
+    100584: leg1 1
+    100586: leg1 10
+    100588: leg1 11
+    100590: leg1 12
+    100592: leg1 13
+    100594: leg1 2
+    100596: leg1 3
+    100598: leg1 4
+    100600: leg1 5
+    100602: leg1 6
+    100604: leg1 7
+    100606: leg1 8
+    100608: leg1 9
+    100610: leg2 1
+    100612: leg2 10
+    100614: leg2 11
+    100616: leg2 12
+    100618: leg2 13
+    100620: leg2 2
+    100622: leg2 3
+    100624: leg2 4
+    100626: leg2 5
+    100628: leg2 6
+    100630: leg2 7
+    100632: leg2 8
+    100634: leg2 9
+    100636: leg3 1
+    100638: leg3 10
+    100640: leg3 11
+    100642: leg3 12
+    100644: leg3 13
+    100646: leg3 2
+    100648: leg3 3
+    100650: leg3 4
+    100652: leg3 5
+    100654: leg3 6
+    100656: leg3 7
+    100658: leg3 8
+    100660: leg3 9
+    100662: nob
+    100664: PC5
+    100666: PC6
+    100668: PC7
+    100670: shard178 1
+    100672: shard178 2
+    100674: shard178 3
+    100676: shard179 1
+    100678: shard179 2
+    100680: shard179 3
+    100682: shard180 1
+    100684: shard180 2
+    100686: shard180 3
+    100688: shard181 1
+    100690: shard181 2
+    100692: shard181 3
+    100694: shard182 1
+    100696: shard182 2
+    100698: shard182 3
+    100700: shard183 1
+    100702: shard183 2
+    100704: shard183 3
+    100706: shard184 1
+    100708: shard184 2
+    100710: shard184 3
+    100712: shard185 1
+    100714: shard185 2
+    100716: shard185 3
+    100718: shard186 1
+    100720: shard186 2
+    100722: shard186 3
+    100724: shard187 1
+    100726: shard187 2
+    100728: shard187 3
+    100730: shard188 1
+    100732: shard188 2
+    100734: shard188 3
+    100736: shard189 1
+    100738: shard189 2
+    100740: shard189 3
+    100742: shard190 1
+    100744: shard190 2
+    100746: shard190 3
+    100748: shard191 1
+    100750: shard191 2
+    100752: shard191 3
+    100754: shard192
+    100756: shard192 1
+    100758: shard192 2
+    100760: shard192 3
+    100762: shard192 4
+    100764: shard192 5
+    100766: shard192 6
+    100768: shard192 7
+    100770: shard193
+    100772: shard193 1
+    100774: shard193 2
+    100776: shard193 3
+    100778: shard193 4
+    100780: shard193 5
+    100782: shard193 6
+    100784: shard193 7
+    100786: shard194
+    100788: shard194 1
+    100790: shard194 2
+    100792: shard194 3
+    100794: shard194 4
+    100796: shard194 5
+    100798: shard194 6
+    100800: shard194 7
+    100802: shard195
+    100804: shard195 1
+    100806: shard195 2
+    100808: shard195 3
+    100810: shard195 4
+    100812: shard195 5
+    100814: shard195 6
+    100816: shard195 7
+    100818: shard196
+    100820: shard196 1
+    100822: shard196 2
+    100824: shard196 3
+    100826: shard196 4
+    100828: shard196 5
+    100830: shard196 6
+    100832: shard196 7
+    100834: shard197
+    100836: shard197 1
+    100838: shard197 10
+    100840: shard197 11
+    100842: shard197 12
+    100844: shard197 2
+    100846: shard197 3
+    100848: shard197 4
+    100850: shard197 5
+    100852: shard197 6
+    100854: shard197 7
+    100856: shard197 8
+    100858: shard197 9
+    100860: shard198
+    100862: shard198 1
+    100864: shard198 10
+    100866: shard198 11
+    100868: shard198 12
+    100870: shard198 2
+    100872: shard198 3
+    100874: shard198 4
+    100876: shard198 5
+    100878: shard198 6
+    100880: shard198 7
+    100882: shard198 8
+    100884: shard198 9
+    100886: shard199
+    100888: shard199 1
+    100890: shard199 10
+    100892: shard199 11
+    100894: shard199 12
+    100896: shard199 2
+    100898: shard199 3
+    100900: shard199 4
+    100902: shard199 5
+    100904: shard199 6
+    100906: shard199 7
+    100908: shard199 8
+    100910: shard199 9
+    100912: shard200
+    100914: shard201
+    100916: shard202
+    100918: shard203
+    100920: shard204
+    100922: shard205
+    100924: shard206
+    100926: shard207
+    100928: shard208
+    100930: shard209
+    100932: shard210
+    100934: shard211
+    100936: shard212
+    100938: shard213
+    100940: shard214
+    100942: shard215
+    100944: shard216
+    100946: shard217
+    100948: shard218
+    100950: shard219
+    100952: shard220
+    100954: shard221
+    100956: shard222
+    100958: shard223
+    100960: shard224
+    100962: shard225
+    100964: shard226
+    100966: shard227
+    100968: shard228
+    100970: shard229
+    100972: stick
+    100974: stick 1
+    100976: stick 10
+    100978: stick 11
+    100980: stick 12
+    100982: stick 2
+    100984: stick 3
+    100986: stick 4
+    100988: stick 5
+    100990: stick 6
+    100992: stick 7
+    100994: stick 8
+    100996: stick 9
+    100998: stick1
+    101000: stick1 1
+    101002: stick1 10
+    101004: stick1 11
+    101006: stick1 12
+    101008: stick1 2
+    101010: stick1 3
+    101012: stick1 4
+    101014: stick1 5
+    101016: stick1 6
+    101018: stick1 7
+    101020: stick1 8
+    101022: stick1 9
+    101024: Table
+    101026: Table 1
+    101028: Table 2
+    101030: Table 3
+    101032: Table 4
+    101034: Table 5
+    101036: Table 6
+    101038: Table 7
+    101040: WallN_Intact1
+    400000: Board
+    400002: BrokenGlass
+    400004: BrokenGlass 1
+    400006: BrokenGlass 2
+    400008: Building
+    400010: Ceilling
+    400012: Chairs
+    400014: Chear_0010
+    400016: Chear_0011
+    400018: Chear_0012
+    400020: Chear_0013
+    400022: Chear_0014
+    400024: Chear_0015
+    400026: Chear_0016
+    400028: Chear_0017
+    400030: Chear_0018
+    400032: Chear_0019
+    400034: Chear_007
+    400036: Chear_008
+    400038: Chear_009
+    400040: //RootNode
+    400042: Classroom1_Wall_E_Intact2
+    400044: Desk1
+    400046: Desk2
+    400048: Desk3
+    400050: Desk4
+    400052: Desk5
+    400054: Desk6
+    400056: Desk7
+    400058: Desk8
+    400060: Door
+    400062: Frame
+    400064: Frame 1
+    400066: Frame 2
+    400068: Glass1
+    400070: Glass2
+    400072: Glass3
+    400074: Keyboard
+    400076: Keyboard005
+    400078: Keyboard005 1
+    400080: Keyboard005 2
+    400082: Keyboard005 3
+    400084: Leg1
+    400086: Leg1 1
+    400088: Leg1 2
+    400090: Leg1 3
+    400092: Leg1 4
+    400094: Leg1 5
+    400096: Leg1 6
+    400098: Leg1 7
+    400100: Leg2
+    400102: Leg2 1
+    400104: Leg2 2
+    400106: Leg2 3
+    400108: Leg2 4
+    400110: Leg2 5
+    400112: Leg2 6
+    400114: Leg2 7
+    400116: Leg3
+    400118: Leg3 1
+    400120: Leg3 2
+    400122: Leg3 3
+    400124: Leg3 4
+    400126: Leg3 5
+    400128: Leg3 6
+    400130: Leg3 7
+    400132: Leg4
+    400134: Leg4 1
+    400136: Leg4 2
+    400138: Leg4 3
+    400140: Leg4 4
+    400142: Leg4 5
+    400144: Leg4 6
+    400146: Leg4 7
+    400148: Legs
+    400150: Legs 1
+    400152: Legs 2
+    400154: Legs 3
+    400156: Legs 4
+    400158: Legs 5
+    400160: Legs 6
+    400162: Legs 7
+    400164: Legs 8
+    400166: Monitor005
+    400168: Monitor005 1
+    400170: Monitor005 2
+    400172: Monitor005 3
+    400174: PC005
+    400176: PC005 1
+    400178: PC005 2
+    400180: PC005 3
+    400182: PC1
+    400184: PC2
+    400186: PC3
+    400188: PC4
+    400190: PC_Desks
+    400192: PCs
+    400194: pCube1
+    400196: pCube2
+    400198: pCube3
+    400200: pCube4
+    400202: pCube5
+    400204: pCube6
+    400206: pPlane1
+    400208: shard100
+    400210: shard101
+    400212: shard102
+    400214: shard103
+    400216: shard104
+    400218: shard105
+    400220: shard106
+    400222: shard107
+    400224: shard108
+    400226: shard109
+    400228: shard110
+    400230: shard111
+    400232: shard112
+    400234: shard113
+    400236: shard114
+    400238: shard115
+    400240: shard116
+    400242: shard117
+    400244: shard118
+    400246: shard119
+    400248: shard120
+    400250: shard121
+    400252: shard122
+    400254: shard123
+    400256: shard124
+    400258: shard125
+    400260: shard126
+    400262: shard127
+    400264: shard128
+    400266: shard129
+    400268: shard130
+    400270: shard131
+    400272: shard132
+    400274: shard133
+    400276: shard134
+    400278: shard135
+    400280: shard136
+    400282: shard137
+    400284: shard138
+    400286: shard139
+    400288: shard140
+    400290: shard141
+    400292: shard142
+    400294: shard143
+    400296: shard144
+    400298: shard145
+    400300: shard146
+    400302: shard147
+    400304: shard148
+    400306: shard149
+    400308: shard150
+    400310: shard151
+    400312: shard152
+    400314: shard153
+    400316: shard154
+    400318: shard155
+    400320: shard156
+    400322: shard157
+    400324: shard158
+    400326: shard159
+    400328: shard160
+    400330: shard161
+    400332: shard162
+    400334: shard163
+    400336: shard164
+    400338: shard165
+    400340: shard166
+    400342: shard167
+    400344: shard168
+    400346: shard169
+    400348: shard170
+    400350: shard171
+    400352: shard172
+    400354: shard173
+    400356: shard174
+    400358: shard175
+    400360: shard176
+    400362: shard177
+    400364: shard178
+    400366: shard179
+    400368: shard180
+    400370: shard181
+    400372: shard182
+    400374: shard183
+    400376: shard184
+    400378: shard185
+    400380: shard186
+    400382: shard187
+    400384: shard188
+    400386: shard189
+    400388: shard190
+    400390: shard191
+    400392: shard81
+    400394: shard82
+    400396: shard83
+    400398: shard84
+    400400: shard85
+    400402: shard86
+    400404: shard87
+    400406: shard88
+    400408: shard89
+    400410: shard90
+    400412: shard91
+    400414: shard92
+    400416: shard93
+    400418: shard94
+    400420: shard95
+    400422: shard96
+    400424: shard97
+    400426: shard98
+    400428: shard99
+    400430: Table1
+    400432: Table2
+    400434: Table3
+    400436: Table4
+    400438: Table5
+    400440: Table6
+    400442: Table7
+    400444: Table8
+    400446: Table_001
+    400448: Table_003
+    400450: Tables1
+    400452: TableTop
+    400454: TableTop1
+    400456: TableTop1 1
+    400458: TableTop1 2
+    400460: TableTop1 3
+    400462: TableTop1 4
+    400464: TableTop1 5
+    400466: TableTop1 6
+    400468: TableTop1 7
+    400470: TeacherDesk
+    400472: TeacherTable
+    400474: Wall_W_Intact
+    400476: WallN_Intact
+    400478: Window1
+    400480: Window14
+    400482: Window16
+    400484: Window17
+    400486: Window2
+    400488: Window3
+    400490: Windows1
+    400492: leg
+    400494: leg1
+    400496: leg2
+    400498: leg3
+    400500: leg4
+    400502: leg5
+    400504: back
+    400506: back 1
+    400508: back 10
+    400510: back 11
+    400512: back 12
+    400514: back 2
+    400516: back 3
+    400518: back 4
+    400520: back 5
+    400522: back 6
+    400524: back 7
+    400526: back 8
+    400528: back 9
+    400530: Chair1
+    400532: Chair2
+    400534: Chair2 1
+    400536: Chair2 2
+    400538: Chair2 3
+    400540: Chair2 4
+    400542: Chair2 5
+    400544: Chair2 6
+    400546: Chair3
+    400548: Chair4
+    400550: Chair5
+    400552: Chair6
+    400554: Chair7
+    400556: Door 1
+    400558: leg 1
+    400560: leg 10
+    400562: leg 11
+    400564: leg 12
+    400566: leg 13
+    400568: leg 2
+    400570: leg 3
+    400572: leg 4
+    400574: leg 5
+    400576: leg 6
+    400578: leg 7
+    400580: leg 8
+    400582: leg 9
+    400584: leg1 1
+    400586: leg1 10
+    400588: leg1 11
+    400590: leg1 12
+    400592: leg1 13
+    400594: leg1 2
+    400596: leg1 3
+    400598: leg1 4
+    400600: leg1 5
+    400602: leg1 6
+    400604: leg1 7
+    400606: leg1 8
+    400608: leg1 9
+    400610: leg2 1
+    400612: leg2 10
+    400614: leg2 11
+    400616: leg2 12
+    400618: leg2 13
+    400620: leg2 2
+    400622: leg2 3
+    400624: leg2 4
+    400626: leg2 5
+    400628: leg2 6
+    400630: leg2 7
+    400632: leg2 8
+    400634: leg2 9
+    400636: leg3 1
+    400638: leg3 10
+    400640: leg3 11
+    400642: leg3 12
+    400644: leg3 13
+    400646: leg3 2
+    400648: leg3 3
+    400650: leg3 4
+    400652: leg3 5
+    400654: leg3 6
+    400656: leg3 7
+    400658: leg3 8
+    400660: leg3 9
+    400662: nob
+    400664: PC5
+    400666: PC6
+    400668: PC7
+    400670: shard178 1
+    400672: shard178 2
+    400674: shard178 3
+    400676: shard179 1
+    400678: shard179 2
+    400680: shard179 3
+    400682: shard180 1
+    400684: shard180 2
+    400686: shard180 3
+    400688: shard181 1
+    400690: shard181 2
+    400692: shard181 3
+    400694: shard182 1
+    400696: shard182 2
+    400698: shard182 3
+    400700: shard183 1
+    400702: shard183 2
+    400704: shard183 3
+    400706: shard184 1
+    400708: shard184 2
+    400710: shard184 3
+    400712: shard185 1
+    400714: shard185 2
+    400716: shard185 3
+    400718: shard186 1
+    400720: shard186 2
+    400722: shard186 3
+    400724: shard187 1
+    400726: shard187 2
+    400728: shard187 3
+    400730: shard188 1
+    400732: shard188 2
+    400734: shard188 3
+    400736: shard189 1
+    400738: shard189 2
+    400740: shard189 3
+    400742: shard190 1
+    400744: shard190 2
+    400746: shard190 3
+    400748: shard191 1
+    400750: shard191 2
+    400752: shard191 3
+    400754: shard192
+    400756: shard192 1
+    400758: shard192 2
+    400760: shard192 3
+    400762: shard192 4
+    400764: shard192 5
+    400766: shard192 6
+    400768: shard192 7
+    400770: shard193
+    400772: shard193 1
+    400774: shard193 2
+    400776: shard193 3
+    400778: shard193 4
+    400780: shard193 5
+    400782: shard193 6
+    400784: shard193 7
+    400786: shard194
+    400788: shard194 1
+    400790: shard194 2
+    400792: shard194 3
+    400794: shard194 4
+    400796: shard194 5
+    400798: shard194 6
+    400800: shard194 7
+    400802: shard195
+    400804: shard195 1
+    400806: shard195 2
+    400808: shard195 3
+    400810: shard195 4
+    400812: shard195 5
+    400814: shard195 6
+    400816: shard195 7
+    400818: shard196
+    400820: shard196 1
+    400822: shard196 2
+    400824: shard196 3
+    400826: shard196 4
+    400828: shard196 5
+    400830: shard196 6
+    400832: shard196 7
+    400834: shard197
+    400836: shard197 1
+    400838: shard197 10
+    400840: shard197 11
+    400842: shard197 12
+    400844: shard197 2
+    400846: shard197 3
+    400848: shard197 4
+    400850: shard197 5
+    400852: shard197 6
+    400854: shard197 7
+    400856: shard197 8
+    400858: shard197 9
+    400860: shard198
+    400862: shard198 1
+    400864: shard198 10
+    400866: shard198 11
+    400868: shard198 12
+    400870: shard198 2
+    400872: shard198 3
+    400874: shard198 4
+    400876: shard198 5
+    400878: shard198 6
+    400880: shard198 7
+    400882: shard198 8
+    400884: shard198 9
+    400886: shard199
+    400888: shard199 1
+    400890: shard199 10
+    400892: shard199 11
+    400894: shard199 12
+    400896: shard199 2
+    400898: shard199 3
+    400900: shard199 4
+    400902: shard199 5
+    400904: shard199 6
+    400906: shard199 7
+    400908: shard199 8
+    400910: shard199 9
+    400912: shard200
+    400914: shard201
+    400916: shard202
+    400918: shard203
+    400920: shard204
+    400922: shard205
+    400924: shard206
+    400926: shard207
+    400928: shard208
+    400930: shard209
+    400932: shard210
+    400934: shard211
+    400936: shard212
+    400938: shard213
+    400940: shard214
+    400942: shard215
+    400944: shard216
+    400946: shard217
+    400948: shard218
+    400950: shard219
+    400952: shard220
+    400954: shard221
+    400956: shard222
+    400958: shard223
+    400960: shard224
+    400962: shard225
+    400964: shard226
+    400966: shard227
+    400968: shard228
+    400970: shard229
+    400972: stick
+    400974: stick 1
+    400976: stick 10
+    400978: stick 11
+    400980: stick 12
+    400982: stick 2
+    400984: stick 3
+    400986: stick 4
+    400988: stick 5
+    400990: stick 6
+    400992: stick 7
+    400994: stick 8
+    400996: stick 9
+    400998: stick1
+    401000: stick1 1
+    401002: stick1 10
+    401004: stick1 11
+    401006: stick1 12
+    401008: stick1 2
+    401010: stick1 3
+    401012: stick1 4
+    401014: stick1 5
+    401016: stick1 6
+    401018: stick1 7
+    401020: stick1 8
+    401022: stick1 9
+    401024: Table
+    401026: Table 1
+    401028: Table 2
+    401030: Table 3
+    401032: Table 4
+    401034: Table 5
+    401036: Table 6
+    401038: Table 7
+    401040: WallN_Intact1
+    2300000: Ceilling
+    2300002: Chear_0010
+    2300004: Chear_0011
+    2300006: Chear_0012
+    2300008: Chear_0013
+    2300010: Chear_0014
+    2300012: Chear_0015
+    2300014: Chear_0016
+    2300016: Chear_0017
+    2300018: Chear_0018
+    2300020: Chear_0019
+    2300022: Chear_007
+    2300024: Chear_008
+    2300026: Chear_009
+    2300028: Classroom1_Wall_E_Intact2
+    2300030: Door
+    2300032: Frame
+    2300034: Frame 1
+    2300036: Frame 2
+    2300038: Glass1
+    2300040: Glass2
+    2300042: Glass3
+    2300044: Keyboard005
+    2300046: Keyboard005 1
+    2300048: Keyboard005 2
+    2300050: Keyboard005 3
+    2300052: Leg1
+    2300054: Leg1 1
+    2300056: Leg1 2
+    2300058: Leg1 3
+    2300060: Leg1 4
+    2300062: Leg1 5
+    2300064: Leg1 6
+    2300066: Leg1 7
+    2300068: Leg2
+    2300070: Leg2 1
+    2300072: Leg2 2
+    2300074: Leg2 3
+    2300076: Leg2 4
+    2300078: Leg2 5
+    2300080: Leg2 6
+    2300082: Leg2 7
+    2300084: Leg3
+    2300086: Leg3 1
+    2300088: Leg3 2
+    2300090: Leg3 3
+    2300092: Leg3 4
+    2300094: Leg3 5
+    2300096: Leg3 6
+    2300098: Leg3 7
+    2300100: Leg4
+    2300102: Leg4 1
+    2300104: Leg4 2
+    2300106: Leg4 3
+    2300108: Leg4 4
+    2300110: Leg4 5
+    2300112: Leg4 6
+    2300114: Leg4 7
+    2300116: Monitor005
+    2300118: Monitor005 1
+    2300120: Monitor005 2
+    2300122: Monitor005 3
+    2300124: PC005
+    2300126: PC005 1
+    2300128: PC005 2
+    2300130: PC005 3
+    2300132: pCube1
+    2300134: pCube2
+    2300136: pCube3
+    2300138: pCube4
+    2300140: pCube5
+    2300142: pCube6
+    2300144: pPlane1
+    2300146: shard100
+    2300148: shard101
+    2300150: shard102
+    2300152: shard103
+    2300154: shard104
+    2300156: shard105
+    2300158: shard106
+    2300160: shard107
+    2300162: shard108
+    2300164: shard109
+    2300166: shard110
+    2300168: shard111
+    2300170: shard112
+    2300172: shard113
+    2300174: shard114
+    2300176: shard115
+    2300178: shard116
+    2300180: shard117
+    2300182: shard118
+    2300184: shard119
+    2300186: shard120
+    2300188: shard121
+    2300190: shard122
+    2300192: shard123
+    2300194: shard124
+    2300196: shard125
+    2300198: shard126
+    2300200: shard127
+    2300202: shard128
+    2300204: shard129
+    2300206: shard130
+    2300208: shard131
+    2300210: shard132
+    2300212: shard133
+    2300214: shard134
+    2300216: shard135
+    2300218: shard136
+    2300220: shard137
+    2300222: shard138
+    2300224: shard139
+    2300226: shard140
+    2300228: shard141
+    2300230: shard142
+    2300232: shard143
+    2300234: shard144
+    2300236: shard145
+    2300238: shard146
+    2300240: shard147
+    2300242: shard148
+    2300244: shard149
+    2300246: shard150
+    2300248: shard151
+    2300250: shard152
+    2300252: shard153
+    2300254: shard154
+    2300256: shard155
+    2300258: shard156
+    2300260: shard157
+    2300262: shard158
+    2300264: shard159
+    2300266: shard160
+    2300268: shard161
+    2300270: shard162
+    2300272: shard163
+    2300274: shard164
+    2300276: shard165
+    2300278: shard166
+    2300280: shard167
+    2300282: shard168
+    2300284: shard169
+    2300286: shard170
+    2300288: shard171
+    2300290: shard172
+    2300292: shard173
+    2300294: shard174
+    2300296: shard175
+    2300298: shard176
+    2300300: shard177
+    2300302: shard178
+    2300304: shard179
+    2300306: shard180
+    2300308: shard181
+    2300310: shard182
+    2300312: shard183
+    2300314: shard184
+    2300316: shard185
+    2300318: shard186
+    2300320: shard187
+    2300322: shard188
+    2300324: shard189
+    2300326: shard190
+    2300328: shard191
+    2300330: shard81
+    2300332: shard82
+    2300334: shard83
+    2300336: shard84
+    2300338: shard85
+    2300340: shard86
+    2300342: shard87
+    2300344: shard88
+    2300346: shard89
+    2300348: shard90
+    2300350: shard91
+    2300352: shard92
+    2300354: shard93
+    2300356: shard94
+    2300358: shard95
+    2300360: shard96
+    2300362: shard97
+    2300364: shard98
+    2300366: shard99
+    2300368: Table_001
+    2300370: Table_003
+    2300372: TableTop
+    2300374: TableTop1
+    2300376: TableTop1 1
+    2300378: TableTop1 2
+    2300380: TableTop1 3
+    2300382: TableTop1 4
+    2300384: TableTop1 5
+    2300386: TableTop1 6
+    2300388: TableTop1 7
+    2300390: Wall_W_Intact
+    2300392: WallN_Intact
+    2300394: Window14
+    2300396: Window16
+    2300398: Window17
+    2300400: leg
+    2300402: leg1
+    2300404: leg2
+    2300406: leg3
+    2300408: leg4
+    2300410: leg5
+    2300412: back
+    2300414: back 1
+    2300416: back 10
+    2300418: back 11
+    2300420: back 12
+    2300422: back 2
+    2300424: back 3
+    2300426: back 4
+    2300428: back 5
+    2300430: back 6
+    2300432: back 7
+    2300434: back 8
+    2300436: back 9
+    2300438: Door 1
+    2300440: leg 1
+    2300442: leg 10
+    2300444: leg 11
+    2300446: leg 12
+    2300448: leg 13
+    2300450: leg 2
+    2300452: leg 3
+    2300454: leg 4
+    2300456: leg 5
+    2300458: leg 6
+    2300460: leg 7
+    2300462: leg 8
+    2300464: leg 9
+    2300466: leg1 1
+    2300468: leg1 10
+    2300470: leg1 11
+    2300472: leg1 12
+    2300474: leg1 13
+    2300476: leg1 2
+    2300478: leg1 3
+    2300480: leg1 4
+    2300482: leg1 5
+    2300484: leg1 6
+    2300486: leg1 7
+    2300488: leg1 8
+    2300490: leg1 9
+    2300492: leg2 1
+    2300494: leg2 10
+    2300496: leg2 11
+    2300498: leg2 12
+    2300500: leg2 13
+    2300502: leg2 2
+    2300504: leg2 3
+    2300506: leg2 4
+    2300508: leg2 5
+    2300510: leg2 6
+    2300512: leg2 7
+    2300514: leg2 8
+    2300516: leg2 9
+    2300518: leg3 1
+    2300520: leg3 10
+    2300522: leg3 11
+    2300524: leg3 12
+    2300526: leg3 13
+    2300528: leg3 2
+    2300530: leg3 3
+    2300532: leg3 4
+    2300534: leg3 5
+    2300536: leg3 6
+    2300538: leg3 7
+    2300540: leg3 8
+    2300542: leg3 9
+    2300544: nob
+    2300546: shard178 1
+    2300548: shard178 2
+    2300550: shard178 3
+    2300552: shard179 1
+    2300554: shard179 2
+    2300556: shard179 3
+    2300558: shard180 1
+    2300560: shard180 2
+    2300562: shard180 3
+    2300564: shard181 1
+    2300566: shard181 2
+    2300568: shard181 3
+    2300570: shard182 1
+    2300572: shard182 2
+    2300574: shard182 3
+    2300576: shard183 1
+    2300578: shard183 2
+    2300580: shard183 3
+    2300582: shard184 1
+    2300584: shard184 2
+    2300586: shard184 3
+    2300588: shard185 1
+    2300590: shard185 2
+    2300592: shard185 3
+    2300594: shard186 1
+    2300596: shard186 2
+    2300598: shard186 3
+    2300600: shard187 1
+    2300602: shard187 2
+    2300604: shard187 3
+    2300606: shard188 1
+    2300608: shard188 2
+    2300610: shard188 3
+    2300612: shard189 1
+    2300614: shard189 2
+    2300616: shard189 3
+    2300618: shard190 1
+    2300620: shard190 2
+    2300622: shard190 3
+    2300624: shard191 1
+    2300626: shard191 2
+    2300628: shard191 3
+    2300630: shard192
+    2300632: shard192 1
+    2300634: shard192 2
+    2300636: shard192 3
+    2300638: shard192 4
+    2300640: shard192 5
+    2300642: shard192 6
+    2300644: shard192 7
+    2300646: shard193
+    2300648: shard193 1
+    2300650: shard193 2
+    2300652: shard193 3
+    2300654: shard193 4
+    2300656: shard193 5
+    2300658: shard193 6
+    2300660: shard193 7
+    2300662: shard194
+    2300664: shard194 1
+    2300666: shard194 2
+    2300668: shard194 3
+    2300670: shard194 4
+    2300672: shard194 5
+    2300674: shard194 6
+    2300676: shard194 7
+    2300678: shard195
+    2300680: shard195 1
+    2300682: shard195 2
+    2300684: shard195 3
+    2300686: shard195 4
+    2300688: shard195 5
+    2300690: shard195 6
+    2300692: shard195 7
+    2300694: shard196
+    2300696: shard196 1
+    2300698: shard196 2
+    2300700: shard196 3
+    2300702: shard196 4
+    2300704: shard196 5
+    2300706: shard196 6
+    2300708: shard196 7
+    2300710: shard197
+    2300712: shard197 1
+    2300714: shard197 10
+    2300716: shard197 11
+    2300718: shard197 12
+    2300720: shard197 2
+    2300722: shard197 3
+    2300724: shard197 4
+    2300726: shard197 5
+    2300728: shard197 6
+    2300730: shard197 7
+    2300732: shard197 8
+    2300734: shard197 9
+    2300736: shard198
+    2300738: shard198 1
+    2300740: shard198 10
+    2300742: shard198 11
+    2300744: shard198 12
+    2300746: shard198 2
+    2300748: shard198 3
+    2300750: shard198 4
+    2300752: shard198 5
+    2300754: shard198 6
+    2300756: shard198 7
+    2300758: shard198 8
+    2300760: shard198 9
+    2300762: shard199
+    2300764: shard199 1
+    2300766: shard199 10
+    2300768: shard199 11
+    2300770: shard199 12
+    2300772: shard199 2
+    2300774: shard199 3
+    2300776: shard199 4
+    2300778: shard199 5
+    2300780: shard199 6
+    2300782: shard199 7
+    2300784: shard199 8
+    2300786: shard199 9
+    2300788: shard200
+    2300790: shard201
+    2300792: shard202
+    2300794: shard203
+    2300796: shard204
+    2300798: shard205
+    2300800: shard206
+    2300802: shard207
+    2300804: shard208
+    2300806: shard209
+    2300808: shard210
+    2300810: shard211
+    2300812: shard212
+    2300814: shard213
+    2300816: shard214
+    2300818: shard215
+    2300820: shard216
+    2300822: shard217
+    2300824: shard218
+    2300826: shard219
+    2300828: shard220
+    2300830: shard221
+    2300832: shard222
+    2300834: shard223
+    2300836: shard224
+    2300838: shard225
+    2300840: shard226
+    2300842: shard227
+    2300844: shard228
+    2300846: shard229
+    2300848: stick
+    2300850: stick 1
+    2300852: stick 10
+    2300854: stick 11
+    2300856: stick 12
+    2300858: stick 2
+    2300860: stick 3
+    2300862: stick 4
+    2300864: stick 5
+    2300866: stick 6
+    2300868: stick 7
+    2300870: stick 8
+    2300872: stick 9
+    2300874: stick1
+    2300876: stick1 1
+    2300878: stick1 10
+    2300880: stick1 11
+    2300882: stick1 12
+    2300884: stick1 2
+    2300886: stick1 3
+    2300888: stick1 4
+    2300890: stick1 5
+    2300892: stick1 6
+    2300894: stick1 7
+    2300896: stick1 8
+    2300898: stick1 9
+    2300900: WallN_Intact1
+    3300000: Ceilling
+    3300002: Chear_0010
+    3300004: Chear_0011
+    3300006: Chear_0012
+    3300008: Chear_0013
+    3300010: Chear_0014
+    3300012: Chear_0015
+    3300014: Chear_0016
+    3300016: Chear_0017
+    3300018: Chear_0018
+    3300020: Chear_0019
+    3300022: Chear_007
+    3300024: Chear_008
+    3300026: Chear_009
+    3300028: Classroom1_Wall_E_Intact2
+    3300030: Door
+    3300032: Frame
+    3300034: Frame 1
+    3300036: Frame 2
+    3300038: Glass1
+    3300040: Glass2
+    3300042: Glass3
+    3300044: Keyboard005
+    3300046: Keyboard005 1
+    3300048: Keyboard005 2
+    3300050: Keyboard005 3
+    3300052: Leg1
+    3300054: Leg1 1
+    3300056: Leg1 2
+    3300058: Leg1 3
+    3300060: Leg1 4
+    3300062: Leg1 5
+    3300064: Leg1 6
+    3300066: Leg1 7
+    3300068: Leg2
+    3300070: Leg2 1
+    3300072: Leg2 2
+    3300074: Leg2 3
+    3300076: Leg2 4
+    3300078: Leg2 5
+    3300080: Leg2 6
+    3300082: Leg2 7
+    3300084: Leg3
+    3300086: Leg3 1
+    3300088: Leg3 2
+    3300090: Leg3 3
+    3300092: Leg3 4
+    3300094: Leg3 5
+    3300096: Leg3 6
+    3300098: Leg3 7
+    3300100: Leg4
+    3300102: Leg4 1
+    3300104: Leg4 2
+    3300106: Leg4 3
+    3300108: Leg4 4
+    3300110: Leg4 5
+    3300112: Leg4 6
+    3300114: Leg4 7
+    3300116: Monitor005
+    3300118: Monitor005 1
+    3300120: Monitor005 2
+    3300122: Monitor005 3
+    3300124: PC005
+    3300126: PC005 1
+    3300128: PC005 2
+    3300130: PC005 3
+    3300132: pCube1
+    3300134: pCube2
+    3300136: pCube3
+    3300138: pCube4
+    3300140: pCube5
+    3300142: pCube6
+    3300144: pPlane1
+    3300146: shard100
+    3300148: shard101
+    3300150: shard102
+    3300152: shard103
+    3300154: shard104
+    3300156: shard105
+    3300158: shard106
+    3300160: shard107
+    3300162: shard108
+    3300164: shard109
+    3300166: shard110
+    3300168: shard111
+    3300170: shard112
+    3300172: shard113
+    3300174: shard114
+    3300176: shard115
+    3300178: shard116
+    3300180: shard117
+    3300182: shard118
+    3300184: shard119
+    3300186: shard120
+    3300188: shard121
+    3300190: shard122
+    3300192: shard123
+    3300194: shard124
+    3300196: shard125
+    3300198: shard126
+    3300200: shard127
+    3300202: shard128
+    3300204: shard129
+    3300206: shard130
+    3300208: shard131
+    3300210: shard132
+    3300212: shard133
+    3300214: shard134
+    3300216: shard135
+    3300218: shard136
+    3300220: shard137
+    3300222: shard138
+    3300224: shard139
+    3300226: shard140
+    3300228: shard141
+    3300230: shard142
+    3300232: shard143
+    3300234: shard144
+    3300236: shard145
+    3300238: shard146
+    3300240: shard147
+    3300242: shard148
+    3300244: shard149
+    3300246: shard150
+    3300248: shard151
+    3300250: shard152
+    3300252: shard153
+    3300254: shard154
+    3300256: shard155
+    3300258: shard156
+    3300260: shard157
+    3300262: shard158
+    3300264: shard159
+    3300266: shard160
+    3300268: shard161
+    3300270: shard162
+    3300272: shard163
+    3300274: shard164
+    3300276: shard165
+    3300278: shard166
+    3300280: shard167
+    3300282: shard168
+    3300284: shard169
+    3300286: shard170
+    3300288: shard171
+    3300290: shard172
+    3300292: shard173
+    3300294: shard174
+    3300296: shard175
+    3300298: shard176
+    3300300: shard177
+    3300302: shard178
+    3300304: shard179
+    3300306: shard180
+    3300308: shard181
+    3300310: shard182
+    3300312: shard183
+    3300314: shard184
+    3300316: shard185
+    3300318: shard186
+    3300320: shard187
+    3300322: shard188
+    3300324: shard189
+    3300326: shard190
+    3300328: shard191
+    3300330: shard81
+    3300332: shard82
+    3300334: shard83
+    3300336: shard84
+    3300338: shard85
+    3300340: shard86
+    3300342: shard87
+    3300344: shard88
+    3300346: shard89
+    3300348: shard90
+    3300350: shard91
+    3300352: shard92
+    3300354: shard93
+    3300356: shard94
+    3300358: shard95
+    3300360: shard96
+    3300362: shard97
+    3300364: shard98
+    3300366: shard99
+    3300368: Table_001
+    3300370: Table_003
+    3300372: TableTop
+    3300374: TableTop1
+    3300376: TableTop1 1
+    3300378: TableTop1 2
+    3300380: TableTop1 3
+    3300382: TableTop1 4
+    3300384: TableTop1 5
+    3300386: TableTop1 6
+    3300388: TableTop1 7
+    3300390: Wall_W_Intact
+    3300392: WallN_Intact
+    3300394: Window14
+    3300396: Window16
+    3300398: Window17
+    3300400: leg
+    3300402: leg1
+    3300404: leg2
+    3300406: leg3
+    3300408: leg4
+    3300410: leg5
+    3300412: back
+    3300414: back 1
+    3300416: back 10
+    3300418: back 11
+    3300420: back 12
+    3300422: back 2
+    3300424: back 3
+    3300426: back 4
+    3300428: back 5
+    3300430: back 6
+    3300432: back 7
+    3300434: back 8
+    3300436: back 9
+    3300438: Door 1
+    3300440: leg 1
+    3300442: leg 10
+    3300444: leg 11
+    3300446: leg 12
+    3300448: leg 13
+    3300450: leg 2
+    3300452: leg 3
+    3300454: leg 4
+    3300456: leg 5
+    3300458: leg 6
+    3300460: leg 7
+    3300462: leg 8
+    3300464: leg 9
+    3300466: leg1 1
+    3300468: leg1 10
+    3300470: leg1 11
+    3300472: leg1 12
+    3300474: leg1 13
+    3300476: leg1 2
+    3300478: leg1 3
+    3300480: leg1 4
+    3300482: leg1 5
+    3300484: leg1 6
+    3300486: leg1 7
+    3300488: leg1 8
+    3300490: leg1 9
+    3300492: leg2 1
+    3300494: leg2 10
+    3300496: leg2 11
+    3300498: leg2 12
+    3300500: leg2 13
+    3300502: leg2 2
+    3300504: leg2 3
+    3300506: leg2 4
+    3300508: leg2 5
+    3300510: leg2 6
+    3300512: leg2 7
+    3300514: leg2 8
+    3300516: leg2 9
+    3300518: leg3 1
+    3300520: leg3 10
+    3300522: leg3 11
+    3300524: leg3 12
+    3300526: leg3 13
+    3300528: leg3 2
+    3300530: leg3 3
+    3300532: leg3 4
+    3300534: leg3 5
+    3300536: leg3 6
+    3300538: leg3 7
+    3300540: leg3 8
+    3300542: leg3 9
+    3300544: nob
+    3300546: shard178 1
+    3300548: shard178 2
+    3300550: shard178 3
+    3300552: shard179 1
+    3300554: shard179 2
+    3300556: shard179 3
+    3300558: shard180 1
+    3300560: shard180 2
+    3300562: shard180 3
+    3300564: shard181 1
+    3300566: shard181 2
+    3300568: shard181 3
+    3300570: shard182 1
+    3300572: shard182 2
+    3300574: shard182 3
+    3300576: shard183 1
+    3300578: shard183 2
+    3300580: shard183 3
+    3300582: shard184 1
+    3300584: shard184 2
+    3300586: shard184 3
+    3300588: shard185 1
+    3300590: shard185 2
+    3300592: shard185 3
+    3300594: shard186 1
+    3300596: shard186 2
+    3300598: shard186 3
+    3300600: shard187 1
+    3300602: shard187 2
+    3300604: shard187 3
+    3300606: shard188 1
+    3300608: shard188 2
+    3300610: shard188 3
+    3300612: shard189 1
+    3300614: shard189 2
+    3300616: shard189 3
+    3300618: shard190 1
+    3300620: shard190 2
+    3300622: shard190 3
+    3300624: shard191 1
+    3300626: shard191 2
+    3300628: shard191 3
+    3300630: shard192
+    3300632: shard192 1
+    3300634: shard192 2
+    3300636: shard192 3
+    3300638: shard192 4
+    3300640: shard192 5
+    3300642: shard192 6
+    3300644: shard192 7
+    3300646: shard193
+    3300648: shard193 1
+    3300650: shard193 2
+    3300652: shard193 3
+    3300654: shard193 4
+    3300656: shard193 5
+    3300658: shard193 6
+    3300660: shard193 7
+    3300662: shard194
+    3300664: shard194 1
+    3300666: shard194 2
+    3300668: shard194 3
+    3300670: shard194 4
+    3300672: shard194 5
+    3300674: shard194 6
+    3300676: shard194 7
+    3300678: shard195
+    3300680: shard195 1
+    3300682: shard195 2
+    3300684: shard195 3
+    3300686: shard195 4
+    3300688: shard195 5
+    3300690: shard195 6
+    3300692: shard195 7
+    3300694: shard196
+    3300696: shard196 1
+    3300698: shard196 2
+    3300700: shard196 3
+    3300702: shard196 4
+    3300704: shard196 5
+    3300706: shard196 6
+    3300708: shard196 7
+    3300710: shard197
+    3300712: shard197 1
+    3300714: shard197 10
+    3300716: shard197 11
+    3300718: shard197 12
+    3300720: shard197 2
+    3300722: shard197 3
+    3300724: shard197 4
+    3300726: shard197 5
+    3300728: shard197 6
+    3300730: shard197 7
+    3300732: shard197 8
+    3300734: shard197 9
+    3300736: shard198
+    3300738: shard198 1
+    3300740: shard198 10
+    3300742: shard198 11
+    3300744: shard198 12
+    3300746: shard198 2
+    3300748: shard198 3
+    3300750: shard198 4
+    3300752: shard198 5
+    3300754: shard198 6
+    3300756: shard198 7
+    3300758: shard198 8
+    3300760: shard198 9
+    3300762: shard199
+    3300764: shard199 1
+    3300766: shard199 10
+    3300768: shard199 11
+    3300770: shard199 12
+    3300772: shard199 2
+    3300774: shard199 3
+    3300776: shard199 4
+    3300778: shard199 5
+    3300780: shard199 6
+    3300782: shard199 7
+    3300784: shard199 8
+    3300786: shard199 9
+    3300788: shard200
+    3300790: shard201
+    3300792: shard202
+    3300794: shard203
+    3300796: shard204
+    3300798: shard205
+    3300800: shard206
+    3300802: shard207
+    3300804: shard208
+    3300806: shard209
+    3300808: shard210
+    3300810: shard211
+    3300812: shard212
+    3300814: shard213
+    3300816: shard214
+    3300818: shard215
+    3300820: shard216
+    3300822: shard217
+    3300824: shard218
+    3300826: shard219
+    3300828: shard220
+    3300830: shard221
+    3300832: shard222
+    3300834: shard223
+    3300836: shard224
+    3300838: shard225
+    3300840: shard226
+    3300842: shard227
+    3300844: shard228
+    3300846: shard229
+    3300848: stick
+    3300850: stick 1
+    3300852: stick 10
+    3300854: stick 11
+    3300856: stick 12
+    3300858: stick 2
+    3300860: stick 3
+    3300862: stick 4
+    3300864: stick 5
+    3300866: stick 6
+    3300868: stick 7
+    3300870: stick 8
+    3300872: stick 9
+    3300874: stick1
+    3300876: stick1 1
+    3300878: stick1 10
+    3300880: stick1 11
+    3300882: stick1 12
+    3300884: stick1 2
+    3300886: stick1 3
+    3300888: stick1 4
+    3300890: stick1 5
+    3300892: stick1 6
+    3300894: stick1 7
+    3300896: stick1 8
+    3300898: stick1 9
+    3300900: WallN_Intact1
+    4300000: shard81
+    4300002: shard82
+    4300004: shard83
+    4300006: shard84
+    4300008: shard85
+    4300010: shard86
+    4300012: shard87
+    4300014: WallN_Intact
+    4300016: Wall_W_Intact
+    4300018: Classroom1_Wall_E_Intact2
+    4300020: pPlane1
+    4300022: Ceilling
+    4300024: Door
+    4300026: TableTop1
+    4300028: Leg1
+    4300030: Leg2
+    4300032: Leg3
+    4300034: Leg4
+    4300036: Chear_007
+    4300038: Chear_008
+    4300040: TableTop1
+    4300042: Leg1
+    4300044: Leg2
+    4300046: Leg3
+    4300048: Leg4
+    4300050: Chear_0017
+    4300052: TableTop1
+    4300054: Leg1
+    4300056: Leg2
+    4300058: Leg3
+    4300060: Leg4
+    4300062: Chear_009
+    4300064: TableTop1
+    4300066: Leg1
+    4300068: Leg2
+    4300070: Leg3
+    4300072: Leg4
+    4300074: Chear_0010
+    4300076: TableTop1
+    4300078: Leg1
+    4300080: Leg2
+    4300082: Leg3
+    4300084: Leg4
+    4300086: Chear_0011
+    4300088: TableTop1
+    4300090: Leg1
+    4300092: Leg2
+    4300094: Leg3
+    4300096: Leg4
+    4300098: Chear_0018
+    4300100: TableTop1
+    4300102: Leg1
+    4300104: Leg2
+    4300106: Leg3
+    4300108: Leg4
+    4300110: Chear_0012
+    4300112: TableTop1
+    4300114: Leg1
+    4300116: Leg2
+    4300118: Leg3
+    4300120: Leg4
+    4300122: TableTop
+    4300124: pCube1
+    4300126: pCube2
+    4300128: pCube3
+    4300130: pCube4
+    4300132: pCube5
+    4300134: pCube6
+    4300136: Chear_0019
+    4300138: Frame
+    4300140: Glass3
+    4300142: Window17
+    4300144: shard148
+    4300146: shard149
+    4300148: shard150
+    4300150: shard151
+    4300152: shard152
+    4300154: shard153
+    4300156: shard154
+    4300158: shard155
+    4300160: shard156
+    4300162: shard157
+    4300164: shard158
+    4300166: shard159
+    4300168: shard160
+    4300170: shard161
+    4300172: shard162
+    4300174: shard163
+    4300176: shard164
+    4300178: shard165
+    4300180: shard166
+    4300182: shard167
+    4300184: shard168
+    4300186: shard169
+    4300188: shard170
+    4300190: shard171
+    4300192: shard172
+    4300194: shard173
+    4300196: shard174
+    4300198: shard175
+    4300200: shard176
+    4300202: shard177
+    4300204: Frame
+    4300206: Glass2
+    4300208: Window16
+    4300210: shard118
+    4300212: shard119
+    4300214: shard120
+    4300216: shard121
+    4300218: shard122
+    4300220: shard123
+    4300222: shard124
+    4300224: shard125
+    4300226: shard126
+    4300228: shard127
+    4300230: shard128
+    4300232: shard129
+    4300234: shard130
+    4300236: shard131
+    4300238: shard132
+    4300240: shard133
+    4300242: shard134
+    4300244: shard135
+    4300246: shard136
+    4300248: shard137
+    4300250: shard138
+    4300252: shard139
+    4300254: shard140
+    4300256: shard141
+    4300258: shard142
+    4300260: shard143
+    4300262: shard144
+    4300264: shard145
+    4300266: shard146
+    4300268: shard147
+    4300270: Frame
+    4300272: Window14
+    4300274: Glass1
+    4300276: shard88
+    4300278: shard89
+    4300280: shard90
+    4300282: shard91
+    4300284: shard92
+    4300286: shard93
+    4300288: shard94
+    4300290: shard95
+    4300292: shard96
+    4300294: shard97
+    4300296: shard98
+    4300298: shard99
+    4300300: shard100
+    4300302: shard101
+    4300304: shard102
+    4300306: shard103
+    4300308: shard104
+    4300310: shard105
+    4300312: shard106
+    4300314: shard107
+    4300316: shard108
+    4300318: shard109
+    4300320: shard110
+    4300322: shard111
+    4300324: shard112
+    4300326: shard113
+    4300328: shard114
+    4300330: shard115
+    4300332: shard116
+    4300334: shard117
+    4300336: Chear_0016
+    4300338: Chear_0015
+    4300340: Chear_0014
+    4300342: Chear_0013
+    4300344: Table_003
+    4300346: Table_001
+    4300348: Keyboard005
+    4300350: PC005
+    4300352: Monitor005
+    4300354: shard178
+    4300356: shard179
+    4300358: shard180
+    4300360: shard181
+    4300362: shard182
+    4300364: shard183
+    4300366: shard184
+    4300368: shard185
+    4300370: shard186
+    4300372: shard187
+    4300374: shard188
+    4300376: shard189
+    4300378: shard190
+    4300380: shard191
+    4300382: Keyboard005
+    4300384: PC005
+    4300386: Monitor005
+    4300388: Keyboard005
+    4300390: PC005
+    4300392: Monitor005
+    4300394: Keyboard005
+    4300396: PC005
+    4300398: Monitor005
+    4300400: leg
+    4300402: leg1
+    4300404: leg2
+    4300406: leg3
+    4300408: leg4
+    4300410: leg5
+    4300412: WallN_Intact1
+    4300414: nob
+    4300416: shard196
+    4300418: shard195
+    4300420: shard194
+    4300422: shard193
+    4300424: shard192
+    4300426: shard197
+    4300428: shard198
+    4300430: shard199
+    4300432: stick
+    4300434: stick1
+    4300436: back
+    4300438: shard196
+    4300440: shard195
+    4300442: shard194
+    4300444: shard193
+    4300446: shard192
+    4300448: shard197
+    4300450: shard198
+    4300452: shard199
+    4300454: leg
+    4300456: leg1
+    4300458: leg2
+    4300460: leg3
+    4300462: stick
+    4300464: stick1
+    4300466: back
+    4300468: shard196
+    4300470: shard195
+    4300472: shard194
+    4300474: shard193
+    4300476: shard192
+    4300478: shard197
+    4300480: shard198
+    4300482: shard199
+    4300484: leg
+    4300486: leg1
+    4300488: leg2
+    4300490: leg3
+    4300492: stick
+    4300494: stick1
+    4300496: back
+    4300498: shard196
+    4300500: shard195
+    4300502: shard194
+    4300504: shard193
+    4300506: shard192
+    4300508: shard197
+    4300510: shard198
+    4300512: shard199
+    4300514: leg
+    4300516: leg1
+    4300518: leg2
+    4300520: leg3
+    4300522: stick
+    4300524: stick1
+    4300526: back
+    4300528: shard196
+    4300530: shard195
+    4300532: shard194
+    4300534: shard193
+    4300536: shard192
+    4300538: shard197
+    4300540: shard198
+    4300542: shard199
+    4300544: leg
+    4300546: leg1
+    4300548: leg2
+    4300550: leg3
+    4300552: stick
+    4300554: stick1
+    4300556: back
+    4300558: shard196
+    4300560: shard195
+    4300562: shard194
+    4300564: shard193
+    4300566: shard192
+    4300568: shard197
+    4300570: shard198
+    4300572: shard199
+    4300574: leg
+    4300576: leg1
+    4300578: leg2
+    4300580: leg3
+    4300582: stick
+    4300584: stick1
+    4300586: back
+    4300588: shard196
+    4300590: shard195
+    4300592: shard194
+    4300594: shard193
+    4300596: shard192
+    4300598: shard197
+    4300600: shard198
+    4300602: shard199
+    4300604: leg
+    4300606: leg1
+    4300608: leg2
+    4300610: leg3
+    4300612: stick
+    4300614: stick1
+    4300616: back
+    4300618: shard196
+    4300620: shard195
+    4300622: shard194
+    4300624: shard193
+    4300626: shard192
+    4300628: shard197
+    4300630: shard198
+    4300632: shard199
+    4300634: leg
+    4300636: leg1
+    4300638: leg2
+    4300640: leg3
+    4300642: stick
+    4300644: stick1
+    4300646: back
+    4300648: leg
+    4300650: leg1
+    4300652: leg2
+    4300654: leg3
+    4300656: shard197
+    4300658: shard198
+    4300660: shard199
+    4300662: leg
+    4300664: leg1
+    4300666: leg2
+    4300668: leg3
+    4300670: stick
+    4300672: stick1
+    4300674: back
+    4300676: shard197
+    4300678: shard198
+    4300680: shard199
+    4300682: leg
+    4300684: leg1
+    4300686: leg2
+    4300688: leg3
+    4300690: stick
+    4300692: stick1
+    4300694: back
+    4300696: shard197
+    4300698: shard198
+    4300700: shard199
+    4300702: leg
+    4300704: leg1
+    4300706: leg2
+    4300708: leg3
+    4300710: stick
+    4300712: stick1
+    4300714: back
+    4300716: shard197
+    4300718: shard198
+    4300720: shard199
+    4300722: leg
+    4300724: leg1
+    4300726: leg2
+    4300728: leg3
+    4300730: stick
+    4300732: stick1
+    4300734: back
+    4300736: shard197
+    4300738: shard198
+    4300740: shard199
+    4300742: leg
+    4300744: leg1
+    4300746: leg2
+    4300748: leg3
+    4300750: stick
+    4300752: stick1
+    4300754: back
+    4300756: shard203
+    4300758: shard204
+    4300760: shard205
+    4300762: shard206
+    4300764: shard207
+    4300766: shard208
+    4300768: shard209
+    4300770: shard210
+    4300772: shard211
+    4300774: shard200
+    4300776: shard212
+    4300778: shard213
+    4300780: shard201
+    4300782: shard214
+    4300784: shard202
+    4300786: shard218
+    4300788: shard219
+    4300790: shard220
+    4300792: shard221
+    4300794: shard222
+    4300796: shard223
+    4300798: shard224
+    4300800: shard225
+    4300802: shard226
+    4300804: shard215
+    4300806: shard227
+    4300808: shard228
+    4300810: shard216
+    4300812: shard229
+    4300814: shard217
+    4300816: shard191
+    4300818: shard190
+    4300820: shard189
+    4300822: shard188
+    4300824: shard187
+    4300826: shard186
+    4300828: shard185
+    4300830: shard184
+    4300832: shard183
+    4300834: shard182
+    4300836: shard181
+    4300838: shard180
+    4300840: shard179
+    4300842: shard178
+    4300844: shard191
+    4300846: shard190
+    4300848: shard189
+    4300850: shard188
+    4300852: shard187
+    4300854: shard186
+    4300856: shard185
+    4300858: shard184
+    4300860: shard183
+    4300862: shard182
+    4300864: shard181
+    4300866: shard180
+    4300868: shard179
+    4300870: shard178
+    4300872: shard191
+    4300874: shard190
+    4300876: shard189
+    4300878: shard188
+    4300880: shard187
+    4300882: shard186
+    4300884: shard185
+    4300886: shard184
+    4300888: shard183
+    4300890: shard182
+    4300892: shard181
+    4300894: shard180
+    4300896: shard179
+    4300898: shard178
+    7400000: Take 001
+    11100000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chear
+    second: {fileID: 2100000, guid: 70067e0625ec3b24aaa61d9e9ddb580d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default_Material
+    second: {fileID: 2100000, guid: ee661700a603fb54b9988116deb3e06a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green_Board
+    second: {fileID: 2100000, guid: 022bda3949ba515499798a91f9471014, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PC
+    second: {fileID: 2100000, guid: 72ce041658bfbfe49a3599e53acdd151, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tables
+    second: {fileID: 2100000, guid: 337289685a31bc945b3a37c0ce19304c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 6d13d2376ba6f0d40b821adbb6d95c4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: c064b343d0ec0c34d8765909b6b562cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shatterInteriorS10
+    second: {fileID: 2100000, guid: cb391c1918dccf64e86415f13d9c806f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shatterInteriorS11
+    second: {fileID: 2100000, guid: 1d300d0589f1b5e45b8bd9bda1df05e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shatterInteriorS3
+    second: {fileID: 2100000, guid: bf0cb72a1271d1a49834b34696774bac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shatterInteriorS4
+    second: {fileID: 2100000, guid: d23b428354d4a2d4db8eb5fe6b30b27f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shatterInteriorS5
+    second: {fileID: 2100000, guid: e14fd523b00d228418f7a0f6ee41646a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shatterInteriorS6
+    second: {fileID: 2100000, guid: 4dc2aa33334d67444a4ab9d39b44655e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shatterInteriorS7
+    second: {fileID: 2100000, guid: 86d7d8d31346587419c0102b3552b6c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shatterInteriorS8
+    second: {fileID: 2100000, guid: 0bcd4ce9cbd2750468ebed8a177f59c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shatterInteriorS9
+    second: {fileID: 2100000, guid: 6ff59abc42606cb4da7e4a01b61c1015, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
