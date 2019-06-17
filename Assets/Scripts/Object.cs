@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -33,7 +33,7 @@ public class Object : MonoBehaviour
     // Set isBroken value after the current animation finishes
     private IEnumerator SetBrokenBoolean(bool value)
     {
-        while (!FinishedAnimation()) { }
+        while (!IsAnimationFinished()) { }
 
         isBroken = value;
 
@@ -42,7 +42,7 @@ public class Object : MonoBehaviour
         yield return null;
     }
 
-    public bool FinishedAnimation() => anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9f;
+    public bool IsAnimationFinished() => anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.9f;
 
     public bool FinishedAnimation(string name)
     {
