@@ -39,6 +39,7 @@ public class Player : MonoBehaviour
 			{
 				agent.SetDestination(hit.point);
 				objectToFix = hit.collider.GetComponent<Object>();
+                Debug.Log(hit.collider.gameObject);
 			}
 		}
 	}
