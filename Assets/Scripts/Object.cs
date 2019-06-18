@@ -7,7 +7,7 @@ public class Object : MonoBehaviour
     public bool IsBroken { get; private set; }
 
     private Animator anim;
-
+	private Collider fixCollider;
     private Coroutine coroutine;
 
     private GameLoop gameloop;
@@ -17,14 +17,17 @@ public class Object : MonoBehaviour
         anim = GetComponent<Animator>();
         gameloop = FindObjectOfType<GameLoop>();
         if (anim == null) Debug.Log("No anim on " + gameObject);
-    }
+		fixCollider = GetComponent<Collider>();
+		fixCollider.enabled = false;
+	}
 
     // Method that calls the Break animation and sets 
     // isBroken to true when the animation is over
     public void Break()
     {
-        anim.SetTrigger("Break");
+		anim.SetTrigger("Break");
         coroutine = StartCoroutine(SetBrokenBoolean(true));
+		fixCollider.enabled = true;
     }
 
     // Method that calls the Fix animation and sets 
@@ -43,7 +46,7 @@ public class Object : MonoBehaviour
         while (!IsAnimationFinished()) { yield return null; }
 
         IsBroken = value;
-        Debug.Log("Set to: " + value);
+		Debug.Log("Set to: " + value);
 
         if(coroutine != null) StopCoroutine(coroutine);
 

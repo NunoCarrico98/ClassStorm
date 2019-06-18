@@ -54,6 +54,7 @@ public class Player : MonoBehaviour
                 Debug.Log("Should Stop");
 				canMove = false;
 				agent.isStopped = true;
+				agent.destination = transform.position;
 				obj.Fix();
                 coroutine = StartCoroutine(SetActiveMovement(obj, true));
                 Debug.Log(coroutine);
