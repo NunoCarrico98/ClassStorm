@@ -97,4 +97,9 @@ public class GameLoop : MonoBehaviour
         }
         else Debug.Log("No more break intervals");
     }
+
+    public void AddObjectToList(Object obj)
+    {
+        objects.Add(obj);
+    }
 }

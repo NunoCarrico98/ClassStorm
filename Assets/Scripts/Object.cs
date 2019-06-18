@@ -10,9 +10,12 @@ public class Object : MonoBehaviour
 
     private Coroutine coroutine;
 
+    private GameLoop gameloop;
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
+        gameloop = FindObjectOfType<GameLoop>();
         if (anim == null) Debug.Log("No anim on " + gameObject);
     }
 
@@ -29,6 +32,7 @@ public class Object : MonoBehaviour
     public void Fix()
     {
         anim.SetTrigger("Fix");
+        gameloop.AddObjectToList(gameObject.GetComponent<Object>());
         coroutine = StartCoroutine(SetBrokenBoolean(false));
     }
 
