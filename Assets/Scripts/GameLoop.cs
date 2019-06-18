@@ -1,105 +1,108 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameLoop : MonoBehaviour
 {
+	[SerializeField] private float[] breakIntervals;
+	[SerializeField] private int breaksNeededToChangeInterval;
 
-    [SerializeField] private float[] breakIntervals;
+	private List<Object> objects;
+	private Object currentObject;
+	private Room room;
+	private float currentInterval;
+	private int currentIntervalFlag = 0;
+	private int breaksCounter = 0;
+	private int breaksFlag = 0;
 
-    [SerializeField] private int breaksNeededToChangeInterval;
+	private void Awake()
+	{
+		room = FindObjectOfType<Room>();
 
-    private List<Object> objects;
+		GetObjects();
+		SetInterval();
+	}
 
-    private Object currentObject;
+	// Start is called before the first frame update
+	void Start()
+	{
+		StartCoroutine(BreakTimer());
+	}
 
-    private float currentInterval;
+	// Update is called once per frame
+	void Update()
+	{
+		ManageBreakInterval();
+	}
 
-    private int currentIntervalFlag = 0;
+	private void ManageBreakInterval()
+	{
+		if (breaksCounter % breaksNeededToChangeInterval == 0 && breaksCounter != 0 && breaksFlag == 0)
+		{
+			SetInterval();
+			breaksFlag++;
+		}
+	}
 
-    private int breaksCounter = 0;
+	private IEnumerator BreakTimer()
+	{
+		while (!AllObjectsBroken())
+		{
+			yield return new WaitForSeconds(currentInterval);
 
-    private int breaksFlag = 0;
+			BreakRandomObject();
 
-    private void Awake()
-    {
-        GetObjects();
-        SetInterval();
-    }
+			breaksCounter++;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        StartCoroutine(BreakTimer());
-    }
+			breaksFlag = 0;
+		}
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        ManageBreakInterval();
-    }
+	private void GetObjects()
+	{
+		Object[] objArray = FindObjectsOfType<Object>();
 
-    private void ManageBreakInterval()
-    {
-        if (breaksCounter % breaksNeededToChangeInterval == 0 && breaksCounter != 0 && breaksFlag == 0)
-        {
-            SetInterval();
-            breaksFlag++;
-        }
-    }
+		objects = new List<Object>(objArray);
 
-    private IEnumerator BreakTimer()
-    {
-        while (!AllObjectsBroken())
-        {
-            yield return new WaitForSeconds(currentInterval);
+	}
 
-            BreakRandomObject();
+	private void BreakRandomObject()
+	{
+		Debug.Log("Break");
 
-            breaksCounter++;
+		int i = Random.Range(0, objects.Count);
 
-            breaksFlag = 0;
-        }
-    }
+		objects[i].Break();
 
-    private void GetObjects()
-    {
-        Object[] objArray = FindObjectsOfType<Object>();
+		objects.Remove(objects[i]);
 
-        objects = new List<Object>(objArray);
+		room.AddHPToRemove();
+		InvokeRepeating("SetRoomHP", 0, room.HPRemovalInterval);
+	}
 
-    }
+	private bool AllObjectsBroken()
+	{
+		if (objects.Count >= 1) return false;
 
-    private void BreakRandomObject()
-    {
-        Debug.Log("Break");
+		return true;
+	}
 
-        int i = Random.Range(0, objects.Count);
+	private void SetInterval()
+	{
+		if (breakIntervals.Length - 1 >= currentIntervalFlag)
+		{
+			currentInterval = breakIntervals[currentIntervalFlag];
+			currentIntervalFlag++;
+		}
+		else Debug.Log("No more break intervals");
+	}
 
-        objects[i].Break();
+	public void AddObjectToList(Object obj)
+	{
+		objects.Add(obj);
+		room.RemoveHPToRemove();
+		InvokeRepeating("SetRoomHP", 0, room.HPRemovalInterval);
+	}
 
-        objects.Remove(objects[i]);
-    }
-
-    private bool AllObjectsBroken()
-    {
-        if (objects.Count >= 1) return false;
-
-        return true;
-    }
-
-    private void SetInterval()
-    {
-        if (breakIntervals.Length - 1 >= currentIntervalFlag)
-        {
-            currentInterval = breakIntervals[currentIntervalFlag];
-            currentIntervalFlag++;
-        }
-        else Debug.Log("No more break intervals");
-    }
-
-    public void AddObjectToList(Object obj)
-    {
-        objects.Add(obj);
-    }
+	private void SetRoomHP() => room.SetRoomHP();
 }
