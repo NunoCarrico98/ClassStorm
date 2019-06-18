@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Object : MonoBehaviour
 {
-    public bool isBroken { get; private set; }
+    public bool IsBroken { get; private set; }
 
     private Animator anim;
+
+    private Coroutine coroutine;
 
     private void Awake()
     {
@@ -19,7 +21,7 @@ public class Object : MonoBehaviour
     public void Break()
     {
         anim.SetTrigger("Break");
-        StartCoroutine(SetBrokenBoolean(true));
+        coroutine = StartCoroutine(SetBrokenBoolean(true));
     }
 
     // Method that calls the Fix animation and sets 
@@ -27,17 +29,19 @@ public class Object : MonoBehaviour
     public void Fix()
     {
         anim.SetTrigger("Fix");
-        StartCoroutine(SetBrokenBoolean(false));
+        coroutine = StartCoroutine(SetBrokenBoolean(false));
     }
 
     // Set isBroken value after the current animation finishes
     private IEnumerator SetBrokenBoolean(bool value)
     {
-        while (!IsAnimationFinished()) { }
+        yield return new WaitForSeconds(0.2f);
+        while (!IsAnimationFinished()) { yield return null; }
 
-        isBroken = value;
+        IsBroken = value;
+        Debug.Log("Set to: " + value);
 
-        StopCoroutine("SetBrokenBoolean");
+        if(coroutine != null) StopCoroutine(coroutine);
 
         yield return null;
     }

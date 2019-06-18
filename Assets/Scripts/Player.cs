@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
 	private Camera cam;
 	private NavMeshAgent agent;
 	private Object objectToFix;
+    private Coroutine coroutine;
 
 	private void Awake()
 	{
@@ -19,7 +20,8 @@ public class Player : MonoBehaviour
 	private void Start()
 	{
 		canMove = true;
-	}
+
+    }
 
 	// Update is called once per frame
 	private void Update()
@@ -46,24 +48,27 @@ public class Player : MonoBehaviour
 		if (other.tag == "Object")
 		{
 			Object obj = other.GetComponent<Object>();
-			if (objectToFix == obj && obj.isBroken)
+			if (objectToFix == obj && obj.IsBroken)
 			{
+                Debug.Log("Should Stop");
 				canMove = false;
 				agent.isStopped = true;
 				obj.Fix();
-				StartCoroutine(SetActiveMovement(obj, true));
+                coroutine = StartCoroutine(SetActiveMovement(obj, true));
+                Debug.Log(coroutine);
 			}
 		}
 	}
 
 	private IEnumerator SetActiveMovement(Object obj, bool value)
 	{
-		while (!obj.IsAnimationFinished()) { }
+        yield return new WaitForSeconds(0.2f);
+        while (!obj.IsAnimationFinished()) { yield return null; }
 
 		canMove = value;
 		agent.isStopped = false;
 
-		StopCoroutine("SetActiveMovement");
+		if(coroutine != null) StopCoroutine(coroutine);
 
 		yield return null;
 	}

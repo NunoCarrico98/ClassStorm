@@ -72,6 +72,8 @@ public class GameLoop : MonoBehaviour
 
     private void BreakRandomObject()
     {
+        Debug.Log("Break");
+
         int i = Random.Range(0, objects.Count);
 
         objects[i].Break();

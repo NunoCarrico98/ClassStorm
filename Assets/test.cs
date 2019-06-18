@@ -15,7 +15,7 @@ public class test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) anim.SetTrigger("Break");
-        if (Input.GetMouseButtonDown(1)) anim.SetTrigger("Fix");
+        //if (Input.GetMouseButtonDown(0)) anim.SetTrigger("Break");
+        //if (Input.GetMouseButtonDown(1)) anim.SetTrigger("Fix");
     }
 }
