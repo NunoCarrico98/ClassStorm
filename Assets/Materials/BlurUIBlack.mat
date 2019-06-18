@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BlurUI
+  m_Name: BlurUIBlack
   m_Shader: {fileID: 4800000, guid: b63d5de66cc1a2642a935fa408d0b296, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
