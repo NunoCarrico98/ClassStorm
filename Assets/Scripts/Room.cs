@@ -44,8 +44,8 @@ public class Room : MonoBehaviour
             Dead = true;
             string time = string.Format("{0}:{1:00}", (int)gm.Timer / 60, (int)gm.Timer % 60);
             TextMeshProUGUI deathPanelTxt = deathPanel.GetComponentInChildren<TextMeshProUGUI>();
-            deathPanelTxt.text = $"You lasted for {time} minutes while attempting to fix the room.\n\n" +
-                $"There are kids who have to cope with this everyday, but unfortunately they lack the resources to repair their school.";
+            deathPanelTxt.text = $"Conseguiste aguentar a sala durante {time} minutos!\n\n" +
+                $"Há crianças que lidam com isto todos os dias, mas infelizmente não têm ferramentas para reparar as suas escolas.";
             deathPanel.SetActive(true);
             StopAllCoroutines();
         }
