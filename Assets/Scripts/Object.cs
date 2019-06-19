@@ -6,6 +6,7 @@ public class Object : MonoBehaviour
 {
     public bool IsBroken { get; private set; }
 
+    private RepairSprite sprite;
     private Animator anim;
 	private Collider fixCollider;
     private Coroutine coroutine;
@@ -14,6 +15,7 @@ public class Object : MonoBehaviour
 
     private void Awake()
     {
+        sprite = FindObjectOfType<RepairSprite>();
         anim = GetComponent<Animator>();
         gameloop = FindObjectOfType<GameLoop>();
         if (anim == null) Debug.Log("No anim on " + gameObject);
@@ -35,6 +37,7 @@ public class Object : MonoBehaviour
     public void Fix()
     {
         anim.SetTrigger("Fix");
+        sprite.Activate(true, transform);
         gameloop.AddObjectToList(gameObject.GetComponent<Object>());
         coroutine = StartCoroutine(SetBrokenBoolean(false));
     }
@@ -46,9 +49,9 @@ public class Object : MonoBehaviour
         while (!IsAnimationFinished()) { yield return null; }
 
         IsBroken = value;
-		Debug.Log("Set to: " + value);
+		if(!value) sprite.Activate(false);
 
-        if(coroutine != null) StopCoroutine(coroutine);
+        if (coroutine != null) StopCoroutine(coroutine);
 
         yield return null;
     }

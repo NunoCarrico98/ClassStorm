@@ -13,7 +13,9 @@ public class Room : MonoBehaviour
 
 	[SerializeField] private GameObject deathPanel;
 
+    private GameLoop gp;
 	private float hpToRemove = 0;
+	private float inithpPerObject = 0;
 	private float roomHP;
 
 	public float HPRemovalInterval => hpRemovalInterval;
@@ -21,7 +23,9 @@ public class Room : MonoBehaviour
 
 	private void Start()
 	{
+        gp = FindObjectOfType<GameLoop>();
 		roomHP = maxRoomHP;
+        inithpPerObject = hpPerObject;
 	}
 
 	private void Update()
@@ -39,14 +43,23 @@ public class Room : MonoBehaviour
 		}
 	}
 
-	public void SetRoomHP()
+    //public void ManageHpPerObject()
+    //{
+    //    hpPerObject = inithpPerObject / ((gp.breaksCounter+1)*5);
+    //    Debug.Log("Called and value is: " + hpPerObject);
+    //    Debug.Log("breaksCounter is: " + gp.breaksCounter);
+    //}
+
+
+    public void SetRoomHP()
 	{
 		roomHP -= hpToRemove;
+        Debug.Log(hpToRemove);
 		if (roomHP < 0) roomHP = 0;
 		float ratio = roomHP / maxRoomHP;
 		Sequence setBars = DOTween.Sequence();
 		setBars.Append(healthBar.transform.DOScaleY(ratio, .2f))
-			.Append(healthRedBar.transform.DOScaleY(ratio, 1f));
+			.Append(healthRedBar.transform.DOScaleY(ratio, 4f));
 	}
 
 	public void AddHPToRemove() => hpToRemove += hpPerObject;

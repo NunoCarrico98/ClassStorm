@@ -4,23 +4,26 @@ using UnityEngine;
 
 public class GameLoop : MonoBehaviour
 {
-	[SerializeField] private float[] breakIntervals;
+
+    [SerializeField] private float[] breakIntervals;
 	[SerializeField] private int breaksNeededToChangeInterval;
+
+    public int breaksCounter = 0;
 
 	private List<Object> objects;
 	private Object currentObject;
 	private Room room;
 	private float currentInterval;
 	private int currentIntervalFlag = 0;
-	private int breaksCounter = 0;
 	private int breaksFlag = 0;
-
 	private void Awake()
 	{
 		room = FindObjectOfType<Room>();
 
 		GetObjects();
 		SetInterval();
+
+
 	}
 
 	// Start is called before the first frame update
@@ -52,8 +55,6 @@ public class GameLoop : MonoBehaviour
 
 			BreakRandomObject();
 
-			breaksCounter++;
-
 			breaksFlag = 0;
 		}
 	}
@@ -68,14 +69,14 @@ public class GameLoop : MonoBehaviour
 
 	private void BreakRandomObject()
 	{
-		Debug.Log("Break");
+        breaksCounter++;
 
-		int i = Random.Range(0, objects.Count);
+        int i = Random.Range(0, objects.Count);
 
 		objects[i].Break();
 
 		objects.Remove(objects[i]);
-
+        //room.ManageHpPerObject();
 		room.AddHPToRemove();
 		InvokeRepeating("SetRoomHP", 0, room.HPRemovalInterval);
 	}
@@ -100,8 +101,9 @@ public class GameLoop : MonoBehaviour
 	public void AddObjectToList(Object obj)
 	{
 		objects.Add(obj);
-		room.RemoveHPToRemove();
-		InvokeRepeating("SetRoomHP", 0, room.HPRemovalInterval);
+        //room.ManageHpPerObject();
+        room.RemoveHPToRemove();
+        InvokeRepeating("SetRoomHP", 0, room.HPRemovalInterval);
 	}
 
 	private void SetRoomHP() => room.SetRoomHP();

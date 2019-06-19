@@ -5,11 +5,14 @@ using UnityEngine.AI;
 
 public class Player : MonoBehaviour
 {
+
+    [SerializeField] private RepairSprite sprite;
 	private bool canMove;
 	private Camera cam;
 	private NavMeshAgent agent;
 	private Object objectToFix;
     private Coroutine coroutine;
+    private bool flag;
 
 	private void Awake()
 	{
@@ -39,25 +42,23 @@ public class Player : MonoBehaviour
 			{
 				agent.SetDestination(hit.point);
 				objectToFix = hit.collider.GetComponent<Object>();
-                Debug.Log(hit.collider.gameObject);
 			}
 		}
 	}
 
-	private void OnTriggerEnter(Collider other)
+	private void OnTriggerStay(Collider other)
 	{
-		if (other.tag == "Object")
+		if (other.tag == "Object" && !flag)
 		{
 			Object obj = other.GetComponent<Object>();
 			if (objectToFix == obj && obj.IsBroken)
 			{
-                Debug.Log("Should Stop");
-				canMove = false;
+                flag = true;
+                canMove = false;
 				agent.isStopped = true;
 				agent.destination = transform.position;
 				obj.Fix();
                 coroutine = StartCoroutine(SetActiveMovement(obj, true));
-                Debug.Log(coroutine);
 			}
 		}
 	}
@@ -69,8 +70,10 @@ public class Player : MonoBehaviour
 
 		canMove = value;
 		agent.isStopped = false;
+        flag = false;
 
-		if(coroutine != null) StopCoroutine(coroutine);
+
+        if (coroutine != null) StopCoroutine(coroutine);
 
 		yield return null;
 	}
